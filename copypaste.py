@@ -16,7 +16,6 @@ def load_data(filepath):
     except:
         return {}
 
-# save_items("test.json", {"key": "value"})
 
 if len(sys.argv) == 2:
     command = sys.argv[1]
